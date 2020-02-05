@@ -1,6 +1,6 @@
 <?php
 	
-  // set the current page; 
+  // set the current page; Dylon Lowinske
   $nav_selected = "ABOUT";
 
   // make the left menu buttons visible; options: YES, NO
