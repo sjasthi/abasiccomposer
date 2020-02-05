@@ -5,7 +5,7 @@
 </table>
 
 <!-- If we want to add any footer to the web pages, update the footer.-->
-
+<!-- Kris Lindahl is everywhere! Even in the code! -->
 <div id="foot"></div>
 
 </div>
