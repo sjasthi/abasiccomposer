@@ -4,7 +4,7 @@
 </tr>
 </table>
 
-<!-- If we want to add any footer to the web pages, update the footer.-->
+<!-- If we want to add any footer to the web pages that makes more changes, update the footer.-->
 
 <div id="foot"></div>
 
