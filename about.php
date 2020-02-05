@@ -47,7 +47,7 @@
 	<p>
 		<ul>
       <li>Siva Jasthi (siva.jasthi@metrostate.edu) </li>
-      <li>First Last (first.last@metrostate.edu) </li>
+      <li>Michael Juarez-Sweeney (michael.juarezsweeney@metrostate.edu) </li>
       
 		</ul>
   </p>
