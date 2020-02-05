@@ -10,6 +10,8 @@
   $left_selected = "";
 
   include("./nav.php");
+  //Cole Burnham is sick of
+//seeing kris Lindahl every day
 ?>
 
 
