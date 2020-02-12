@@ -49,8 +49,11 @@
 	<p>
 		<ul>
       <li>Siva Jasthi (siva.jasthi@metrostate.edu) </li>
-      <li>First Last (first.last@metrostate.edu) </li>
-      
+      <li>Cole Burnham (cole.burnham@metrostate.edu) </li>
+      <li>Abdullahi Mohamed (abdullahi.mohamed.3@metrostate.edu</li>
+      <li>Corey Pike (corey.pike@my.metrostate.edu)</li>
+      <li>Sommy Yang (sommy.yang@my.metrostate.edu) </li>
+      <li>Xai Vang (xai.vang.4@my.metrostate.edu)</li>
 		</ul>
   </p>
   

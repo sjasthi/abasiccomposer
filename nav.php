@@ -30,7 +30,7 @@
             <a href="index.php">
               <li class="horozontal-li-logo">
               <img src ="./images/main_logo.png">
-              <br/>A Basic Composer</li>
+              <br/>Gpuzzles</li>
             </a>
 
             <a href="index.php">
