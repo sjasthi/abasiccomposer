@@ -30,7 +30,7 @@ $GLOBALS['data'] = mysqli_query($db, $query);
  <div class="right-content">
     <div class="container">
 
-      <h3 style = "color: #01B0F1;">Reports (TO BE DONE LATER)</h3>
+      <h3 style = "color: #01B0F1;">Summary report</h3>
 <!-- Page Content -->
 <br><br>
 <div class="container-fluid">
