@@ -5,7 +5,7 @@
 
   include("./nav.php");
   $query = "SELECT author_name, book_name from gpuzzles";
-  $query2 = "SELECT count from gpuzzles DISTINCT ON author_name";
+  $query2 = "SELECT count(puzzle_images) from gpuzzles";
 
 $GLOBALS['data'] = mysqli_query($db, $query);
  ?>
@@ -30,7 +30,7 @@ $GLOBALS['data'] = mysqli_query($db, $query);
  <div class="right-content">
     <div class="container">
 
-      <h3 style = "color: #01B0F1;">Summary report</h3>
+      <h3 style = "color: #01B0F1;">Summary</h3>
 <!-- Page Content -->
 <br><br>
 <div class="container-fluid">
@@ -65,9 +65,16 @@ $GLOBALS['data'] = mysqli_query($db, $query);
     
     <div id="customerTableView">
         <button><a class="btn btn-sm" href="createPuzzle.php">Create a Puzzle</a></button>
+       
         <table class="display" id="ceremoniesTable" style="width:100%">
             <div class="table responsive">
                 <thead>
+                <?php 
+                echo '<tr>Total count</tr>';
+                echo mysqli_query($db, $query2);
+
+
+                ?>
                 <tr>
 
                     <th>Author</th>
@@ -87,7 +94,6 @@ $GLOBALS['data'] = mysqli_query($db, $query);
 
                                 <td>'.$row["author_name"].'</td>
                                 <td>'.$row["book_name"].' </span> </td>
->
                             </tr>';
                     }//end while
                 }//end if
