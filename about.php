@@ -1,4 +1,5 @@
 <?php
+//this is a test
 	
   // set the current page; 
   $nav_selected = "ABOUT";
